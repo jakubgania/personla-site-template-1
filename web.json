@@ -1,0 +1,125 @@
+{
+  "web": {
+    "projects": [
+      {
+        "name": "jgcodestudio.com",
+        "url": ""
+      },
+      {
+        "name": "ttsoftware.dev",
+        "url": ""
+      },
+      {
+        "name": "okna-system-serwis.pl",
+        "url": ""
+      }
+    ],
+    "interests": [
+      "Frontend",
+      "Backend",
+      "Cloud",
+      "AI",
+      "ML",
+      "Hardware"
+    ],
+    "technologies": [
+      "Next.js",
+      "Tailwind CSS",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Python",
+      "AWS"
+    ],
+    "websites": [
+      {
+        "name": "jgcodestudio",
+        "url": ""
+      }
+    ],
+    "social": [
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/jakubgania"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/jakubgania"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/@jakubganiasoftware"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/jakubgania"
+      },
+      {
+        "name": "Dev",
+        "url": "https://dev.to/jakubgania"
+      }
+    ],
+    "certificates": [
+      {
+        "id": "12",
+        "date": "2023-05",
+        "description": "AWS Certified Cloud Practitioner"
+      },
+      {
+        "id": "11",
+        "date": "2020-06",
+        "description": "Internet of Things | Certificate obtained as part of postgraduate studies"
+      },
+      {
+        "id": "10",
+        "date": "2020-06",
+        "description": "Artificial Intelligence and Machine Learning | Certificate obtained as part of postgraduate studies"
+      },
+      {
+        "id": "9",
+        "date": "2020-06",
+        "description": "Advanced of AWS solutions | Certificate obtained as part of postgraduate studies"
+      },
+      {
+        "id": "8",
+        "date": "2019-12",
+        "description": "Microsoft Azure | Certificate obtained as part of postgraduate studies"
+      },
+      {
+        "id": "7",
+        "date": "2020-02",
+        "description": "Amazon Web Services | Certificate obtained as part of postgraduate studies"
+      },
+      {
+        "id": "6",
+        "date": "2020-03",
+        "description": "Google Cloud Platform | Certificate obtained as part of postgraduate studies"
+      },
+      {
+        "id": "5",
+        "date": "2020-03",
+        "description": "IBM Cloud | Certificate obtained as part of postgraduate studies"
+      },
+      {
+        "id": "4",
+        "date": "2019-08",
+        "description": "Docker - Quickstart"
+      },
+      {
+        "id": "3",
+        "date": "2019-08",
+        "description": "Introduction to serverless in the AWS cloud"
+      },
+      {
+        "id": "2",
+        "date": "2019-07",
+        "description": "Practical ways to detect vulnerabilities in web applications"
+      },
+      {
+        "id": "1",
+        "date": "2014-03",
+        "description": "Business IT - training conducted at the university - Wrocław University of Science and Technology"
+      }
+    ]
+  }
+}
