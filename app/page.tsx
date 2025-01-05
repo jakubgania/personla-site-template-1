@@ -1,11 +1,12 @@
-// import Image from "next/image";
+import Image from "next/image";
 
 import data from '../web.json'
 
 export default function Home() {
   return (
-    <div className="">
-      <main className="flex flex-col items-center p-6">
+    <div className="p-6">
+      <div className="top-img-div"></div>
+      <main className="flex flex-col items-center">
         <div className="w-full ml-6 mr-6">
           <div className="flex flex-row gap-4 text-2xl">
             <div className="basis-1/4">
@@ -99,10 +100,53 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          <div className="flex mb-80">
+            <div className="flex w-9/12 gap-4">
+              {data.web.social.map((item) => (
+                <div key={item.name} className="basis-1/5 border-t">
+                  <a href={item.url} className="text-2xl" target="_blank">
+                    <p className="pt-8 pb-8">
+                      {item.name}
+                    </p>
+                  </a>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="mb-10 pt-2 border-t">
+            <p className="text-2xl">
+              Certificates
+            </p>
+          </div>
+
+          <div>
+            {data.web.certificates.map((item) => (
+              <div key={item.id} className="flex text-2xl">
+                <div className="basis-1/4">
+                  {item.date}
+                </div>
+                <div className="basis-9/12">
+                  {item.description}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </main>
-      <footer className="">
-        footer section
+
+      <footer className="mt-8">
+        <div className="flex justify-between text-2xl">
+          <div className="flex">
+            <div>
+              designed by jakubgania
+            </div>
+          </div>
+          <div>
+            2025
+          </div>
+        </div>
       </footer>
     </div>
   );

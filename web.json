@@ -2,15 +2,15 @@
   "web": {
     "projects": [
       {
-        "name": "jgcodestudio.com",
+        "name": "amazing-project-1.com",
         "url": ""
       },
       {
-        "name": "ttsoftware.dev",
+        "name": "amazing-project-2.com",
         "url": ""
       },
       {
-        "name": "okna-system-serwis.pl",
+        "name": "amazing-project-3.com",
         "url": ""
       }
     ],
@@ -33,7 +33,7 @@
     ],
     "websites": [
       {
-        "name": "jgcodestudio",
+        "name": "example website",
         "url": ""
       }
     ],
@@ -61,64 +61,44 @@
     ],
     "certificates": [
       {
-        "id": "12",
-        "date": "2023-05",
-        "description": "AWS Certified Cloud Practitioner"
-      },
-      {
-        "id": "11",
-        "date": "2020-06",
-        "description": "Internet of Things | Certificate obtained as part of postgraduate studies"
-      },
-      {
-        "id": "10",
-        "date": "2020-06",
-        "description": "Artificial Intelligence and Machine Learning | Certificate obtained as part of postgraduate studies"
-      },
-      {
-        "id": "9",
-        "date": "2020-06",
-        "description": "Advanced of AWS solutions | Certificate obtained as part of postgraduate studies"
-      },
-      {
         "id": "8",
-        "date": "2019-12",
-        "description": "Microsoft Azure | Certificate obtained as part of postgraduate studies"
+        "date": "2025-01",
+        "description": "title of your amazing certificate"
       },
       {
         "id": "7",
-        "date": "2020-02",
-        "description": "Amazon Web Services | Certificate obtained as part of postgraduate studies"
+        "date": "2024-12",
+        "description": "title of your amazing certificate"
       },
       {
         "id": "6",
         "date": "2020-03",
-        "description": "Google Cloud Platform | Certificate obtained as part of postgraduate studies"
+        "description": "title of your amazing certificate"
       },
       {
         "id": "5",
-        "date": "2020-03",
-        "description": "IBM Cloud | Certificate obtained as part of postgraduate studies"
+        "date": "2023-08",
+        "description": "title of your amazing certificate"
       },
       {
         "id": "4",
-        "date": "2019-08",
-        "description": "Docker - Quickstart"
+        "date": "2022-06",
+        "description": "title of your amazing certificate"
       },
       {
         "id": "3",
-        "date": "2019-08",
-        "description": "Introduction to serverless in the AWS cloud"
+        "date": "2021-04",
+        "description": "title of your amazing certificate"
       },
       {
         "id": "2",
-        "date": "2019-07",
-        "description": "Practical ways to detect vulnerabilities in web applications"
+        "date": "2020-10",
+        "description": "title of your amazing certificate"
       },
       {
         "id": "1",
-        "date": "2014-03",
-        "description": "Business IT - training conducted at the university - Wrocław University of Science and Technology"
+        "date": "2018-02",
+        "description": "title of your amazing certificate"
       }
     ]
   }
