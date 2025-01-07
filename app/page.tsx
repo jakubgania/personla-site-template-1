@@ -1,4 +1,5 @@
 import Image from "next/image";
+import deskImage from "../public/desk-2.jpg"
 
 import data from '../web.json'
 
@@ -83,10 +84,13 @@ export default function Home() {
           </div>
 
           <div>
-            image section
+            <Image
+              src={deskImage}
+              alt="Desk image"
+            />
           </div>
 
-          <div className="flex w-full mb-80">
+          <div className="flex w-full mt-80 mb-80">
             <div className="basis-3/4">
               <div className="text-2xl pl-2">
                 Projects
