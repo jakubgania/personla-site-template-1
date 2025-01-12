@@ -83,11 +83,15 @@ export default function Home() {
             </div>
           </div>
 
-          <div>
-            <Image
-              src={deskImage}
-              alt="Desk image"
-            />
+          <div className="flex mb-80">
+            <div className="w-3/4">
+              <Image
+                src={deskImage}
+                alt="Desk image"
+                quality={100}
+              />
+              <p className="text-2xl mt-4">example description example description</p>
+            </div>
           </div>
 
           <div className="flex w-full mt-80 mb-80">
