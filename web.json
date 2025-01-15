@@ -3,15 +3,15 @@
     "projects": [
       {
         "name": "amazing-project-1.com",
-        "url": ""
+        "url": "https://example-project-1.com"
       },
       {
         "name": "amazing-project-2.com",
-        "url": ""
+        "url": "https://example-project-2.com"
       },
       {
         "name": "amazing-project-3.com",
-        "url": ""
+        "url": "https://example-project-3.com"
       }
     ],
     "interests": [
