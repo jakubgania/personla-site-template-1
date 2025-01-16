@@ -34,7 +34,7 @@
     "websites": [
       {
         "name": "example website",
-        "url": ""
+        "url": "https://example-website.com"
       }
     ],
     "social": [

@@ -22,14 +22,14 @@ body {
 .top-img-div {
   position: absolute;
   z-index: -10;
-  top: 80px;
+  top: 120px;
   left: 26%;
   background-image: url('../public/bg-1.webp');
   /* background-image: url('../public/bg-1.webp'); */
   background-repeat: no-repeat;
   background-size: 100%;
   /* background-position: 0px -200px; */
-  width: 48vw;
+  width: 44vw;
   height: 100%;
   filter: blur(74px);
 }

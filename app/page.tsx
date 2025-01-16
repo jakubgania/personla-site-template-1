@@ -18,7 +18,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="h-[40vw] flex items-center">
+          <div className="h-[42vw] flex items-center">
             <div>
               <p className="text-[6vw] font-bold">
                 web.cloud.tech
@@ -34,12 +34,8 @@ export default function Home() {
             </div>
             <div className="flex items-center w-2/4">
               <div>
-                <div>
-                  Master's degree in computer science
-                </div>
-                <div>
-                  Postgraduate studies in the field of "Multi Cloud Architect"
-                </div>
+                <p>Master's degree in computer science</p>
+                <p>Postgraduate studies in the field of "Multi Cloud Architect"</p>
               </div>
             </div>
           </div>
@@ -147,13 +143,9 @@ export default function Home() {
       <footer className="mt-8">
         <div className="flex justify-between text-2xl">
           <div className="flex">
-            <div>
-              designed by jakubgania
-            </div>
+            <div>designed by jakubgania</div>
           </div>
-          <div>
-            2025
-          </div>
+          <div>2025</div>
         </div>
       </footer>
     </div>
