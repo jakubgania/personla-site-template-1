@@ -6,7 +6,6 @@ import data from '../web.json'
 export default function Home() {
   return (
     <div className="p-6">
-      {/* <div className="top-img-div"></div> */}
       <main className="flex flex-col items-center">
         <div className="w-full ml-6 mr-6">
           <div className="flex flex-row gap-4 text-2xl">
@@ -19,7 +18,6 @@ export default function Home() {
           </div>
 
           <div className="relative h-[44vw] flex items-center overflow-hidden">
-            {/* Background Image */}
             <div
               className="absolute top-[-2vw] left-1/2 transform -translate-x-1/2 z-[-1] bg-cover bg-no-repeat blur-[20px]"
               style={{
@@ -28,27 +26,10 @@ export default function Home() {
                 height: '40vw',
               }}
             ></div>
-            {/* Scalable Text */}
             <p className="text-[6vw] font-bold black text-left">
               web.cloud.tech
             </p>
           </div>
-
-          {/* <div className="scalable-container">
-            <div>
-              <p className="scalable-text">
-                web.cloud.tech
-              </p>
-            </div>
-          </div>   */}
-
-          {/* <div className="h-[40vw] flex items-center">
-            <div>
-              <p className="text-[6vw] font-bold">
-                web.cloud.tech
-              </p>
-            </div>
-          </div> */}
 
           <div className="flex flex-col md:flex-row gap-12 mt-40 mb-80 text-2xl">
             <div className="flex items-center w-full md:w-2/4">
