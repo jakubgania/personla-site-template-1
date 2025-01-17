@@ -18,16 +18,18 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="relative h-[40vw] flex items-center justify-center overflow-hidden">
+          <div className="relative h-[44vw] flex items-center overflow-hidden">
             {/* Background Image */}
             <div
-              className="absolute inset-0 z-[-1] bg-cover bg-no-repeat blur-[40px]"
+              className="absolute top-[-2vw] left-1/2 transform -translate-x-1/2 z-[-1] bg-cover bg-no-repeat blur-[20px]"
               style={{
                 backgroundImage: "url('/bg-1.webp')",
+                width: '60vw',
+                height: '40vw',
               }}
             ></div>
             {/* Scalable Text */}
-            <p className="text-[6vw] font-bold black text-center drop-shadow-lg">
+            <p className="text-[6vw] font-bold black text-left">
               web.cloud.tech
             </p>
           </div>
