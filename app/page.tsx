@@ -6,7 +6,7 @@ import data from '../web.json'
 export default function Home() {
   return (
     <div className="p-6">
-      <div className="top-img-div"></div>
+      {/* <div className="top-img-div"></div> */}
       <main className="flex flex-col items-center">
         <div className="w-full ml-6 mr-6">
           <div className="flex flex-row gap-4 text-2xl">
@@ -18,21 +18,43 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="h-[42vw] flex items-center">
+          <div className="relative h-[40vw] flex items-center justify-center overflow-hidden">
+            {/* Background Image */}
+            <div
+              className="absolute inset-0 z-[-1] bg-cover bg-no-repeat blur-[40px]"
+              style={{
+                backgroundImage: "url('/bg-1.webp')",
+              }}
+            ></div>
+            {/* Scalable Text */}
+            <p className="text-[6vw] font-bold black text-center drop-shadow-lg">
+              web.cloud.tech
+            </p>
+          </div>
+
+          {/* <div className="scalable-container">
+            <div>
+              <p className="scalable-text">
+                web.cloud.tech
+              </p>
+            </div>
+          </div>   */}
+
+          {/* <div className="h-[40vw] flex items-center">
             <div>
               <p className="text-[6vw] font-bold">
                 web.cloud.tech
               </p>
             </div>
-          </div>
+          </div> */}
 
-          <div className="flex gap-2 mt-40 mb-80 text-2xl">
-            <div className="flex items-center w-2/4">
+          <div className="flex flex-col md:flex-row gap-12 mt-40 mb-80 text-2xl">
+            <div className="flex items-center w-full md:w-2/4">
               <p className="max-w-[720px]">
                 Enthusiast of new technologies. My main specialization is websites, but I go beyond that by learning other things. I like to explore, I'm intested in technology companies. I'm learning a lot and creating different concepts.
               </p>
             </div>
-            <div className="flex items-center w-2/4">
+            <div className="flex items-center w-full md:w-2/4">
               <div>
                 <p>Master's degree in computer science</p>
                 <p>Postgraduate studies in the field of "Multi Cloud Architect"</p>
@@ -40,7 +62,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-row gap-4 text-2xl mb-40">
+          <div className="flex flex-col-reverse md:flex-row gap-12 text-2xl mb-40">
             <div className="basis-1/4">
               <div className="mb-10 pt-2 border-t">
                 Interests
@@ -80,7 +102,7 @@ export default function Home() {
           </div>
 
           <div className="flex mb-80">
-            <div className="w-3/4">
+            <div className="w-full md:w-3/4">
               <Image
                 src={deskImage}
                 alt="Desk image"
