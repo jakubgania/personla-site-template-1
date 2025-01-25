@@ -51,7 +51,7 @@ export default function Home() {
                 Interests
               </div>
               {data.web.interests.map((item) => (
-                <div id={item}>
+                <div key={item}>
                   {item}
                 </div>
               ))}
@@ -61,7 +61,7 @@ export default function Home() {
                 Technologies
               </div>
               {data.web.technologies.map((item) => (
-                <div id={item}>
+                <div key={item}>
                   {item}
                 </div>
               ))}
