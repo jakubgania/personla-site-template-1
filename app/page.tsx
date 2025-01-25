@@ -1,6 +1,5 @@
 import Image from "next/image";
 import deskImage from "../public/desk-2.jpg"
-
 import data from '../web.json'
 
 export default function Home() {
@@ -8,11 +7,11 @@ export default function Home() {
     <div className="p-6">
       <main className="flex flex-col items-center">
         <div className="w-full ml-6 mr-6">
-          <div className="flex flex-row gap-4 text-2xl">
-            <div className="basis-1/4">
+          <div className="flex flex-row gap-4 text-lg md:text-2xl">
+            <div className="basis-2/4 md:basis-1/4">
               Example Name
             </div>
-            <div className="basis-1/4">
+            <div className="basis-2/4 md:basis-1/4">
               software engineer
             </div>
           </div>
@@ -26,27 +25,27 @@ export default function Home() {
                 height: '40vw',
               }}
             ></div>
-            <p className="text-[6vw] font-bold black text-left">
+            <p className="text-[5vw] md:text-[6vw] font-bold black text-left">
               web.cloud.tech
             </p>
           </div>
 
-          <div className="flex flex-col md:flex-row gap-12 mt-40 mb-80 text-2xl">
-            <div className="flex items-center w-full md:w-2/4">
+          <div className="flex flex-col md:flex-row gap-12 mt-40 mb-40 md:mb-80">
+            <div className="flex items-center text-xl md:text-2xl w-full md:w-2/4">
               <p className="max-w-[720px]">
                 Enthusiast of new technologies. My main specialization is websites, but I go beyond that by learning other things. I like to explore, I'm intested in technology companies. I'm learning a lot and creating different concepts.
               </p>
             </div>
             <div className="flex items-center w-full md:w-2/4">
-              <div>
+              <div className="text-xl md:text-2xl">
                 <p>Master's degree in computer science</p>
                 <p>Postgraduate studies in the field of "Multi Cloud Architect"</p>
               </div>
             </div>
           </div>
 
-          <div className="flex flex-col-reverse md:flex-row gap-12 text-2xl mb-40">
-            <div className="basis-1/4">
+          <div className="flex flex-col-reverse md:flex-row gap-12 text-2xl mb-20 md:mb-40">
+            <div className="basis-1/4 text-xl md:text-2xl">
               <div className="mb-10 pt-2 border-t">
                 Interests
               </div>
@@ -56,7 +55,7 @@ export default function Home() {
                 </div>
               ))}
             </div>
-            <div className="basis-1/4">
+            <div className="basis-1/4 text-xl md:text-2xl">
               <div className="mb-10 pt-2 border-t">
                 Technologies
               </div>
@@ -67,10 +66,10 @@ export default function Home() {
               ))}
             </div>
             <div className="basis-2/4">
-              <div className="mb-10 pt-2 border-t">
+              <div className="mb-10 pt-2 border-t text-xl md:text-2xl">
                 Bio
               </div>
-              <div className="max-w-[740px]">
+              <div className="text-xl md:text-2xl max-w-[740px]">
                 <p className="mb-10">
                   Hi. I'm a software developer and I create websites and more.
                 </p>
@@ -84,25 +83,25 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex mb-80">
+          <div className="flex mb-40 md:mb-80">
             <div className="w-full md:w-3/4">
               <Image
                 src={deskImage}
                 alt="Desk image"
                 quality={100}
               />
-              <p className="text-2xl mt-4">example description example description</p>
+              <p className="text-lg md:text-xl mt-4">example description example description</p>
             </div>
           </div>
 
-          <div className="flex w-full mt-80 mb-80">
+          <div className="flex w-full mt-40 md:mt-80 mb-40 md:mb-80">
             <div className="basis-3/4">
-              <div className="text-2xl pl-2">
+              <div className="text-2xl">
                 Projects
               </div>
               <div className="leading-none mt-10 mb-10">
                 {data.web.projects.map((item) => (
-                  <div key={item.name} className="text-[5.2vw]">
+                  <div key={item.name} className="text-xl md:text-4xl lg:text-6xl xl:text-8xl">
                     {item.name}
                   </div>
                 ))}
@@ -110,11 +109,11 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex mb-80">
-            <div className="flex w-9/12 gap-4">
+          <div className="flex mb-40 mt-40 md:mt-80 md:mb-80">
+            <div className="flex flex-col w-full md:flex-row md:w-9/12 gap-4">
               {data.web.social.map((item) => (
                 <div key={item.name} className="basis-1/5 border-t">
-                  <a href={item.url} className="text-2xl" target="_blank">
+                  <a href={item.url} className="text-xl md:text-2xl" target="_blank">
                     <p className="pt-8 pb-8">
                       {item.name}
                     </p>
@@ -125,19 +124,21 @@ export default function Home() {
           </div>
 
           <div className="mb-10 pt-2 border-t">
-            <p className="text-2xl">
+            <p className="text-xl md:text-2xl">
               Certificates
             </p>
           </div>
 
-          <div>
+          <div className="flex flex-col gap-4">
             {data.web.certificates.map((item) => (
-              <div key={item.id} className="flex text-2xl">
-                <div className="basis-1/4">
-                  {item.date}
-                </div>
-                <div className="basis-9/12">
-                  {item.description}
+              <div key={item.id} className="basis-12 text-xl md:text-2xl">
+                <div className="flex flex-col md:flex-row">
+                  <div className="basis-4/12">
+                    {item.date}
+                  </div>
+                  <div className="basis-8/12">
+                    {item.description}
+                  </div>
                 </div>
               </div>
             ))}
@@ -146,7 +147,7 @@ export default function Home() {
       </main>
 
       <footer className="mt-8">
-        <div className="flex justify-between text-2xl">
+        <div className="flex justify-between text-xl md:text-2xl">
           <div className="flex">
             <div>designed by jakubgania</div>
           </div>
