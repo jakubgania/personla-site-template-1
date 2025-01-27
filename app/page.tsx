@@ -9,7 +9,7 @@ export default function Home() {
         <div className="w-full ml-6 mr-6">
           <div className="flex flex-row gap-4 text-lg md:text-2xl">
             <div className="basis-2/4 md:basis-1/3">
-              Example Name
+              example name
             </div>
             <div className="basis-2/4 md:basis-2/3">
               software engineer
@@ -18,11 +18,11 @@ export default function Home() {
 
           <div className="relative h-[44vw] flex items-center overflow-hidden">
             <div
-              className="absolute top-[-2vw] left-1/2 transform -translate-x-1/2 z-[-1] bg-cover bg-no-repeat blur-[20px]"
+              className="absolute top-[-2vw] left-1/2 transform -translate-x-1/2 z-[-1] bg-cover bg-no-repeat blur-[44px]"
               style={{
                 backgroundImage: "url('/bg-1.webp')",
-                width: '60vw',
-                height: '40vw',
+                width: '58vw',
+                height: '38vw',
               }}
             >
             </div>
@@ -126,7 +126,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col gap-4">
-              <div className="pt-2 border-t">
+              <div className="mb-10 pt-2 border-t">
                 <p className="text-xl md:text-2xl">
                   Certificates
                 </p>
@@ -149,7 +149,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="mt-8">
+      <footer className="mt-8 md:mt-16 lg:mt-40">
         <div className="flex justify-between text-xl md:text-2xl">
           <div className="flex">
             <div>designed by jakubgania</div>
