@@ -4,10 +4,10 @@ import data from '../web.json'
 
 export default function Home() {
   return (
-    <div className="p-6">
+    <div className="p-4 md:p-6">
       <main className="flex flex-col items-center">
         <div className="w-full ml-6 mr-6">
-          <div className="flex flex-row gap-4 text-lg md:text-2xl">
+          <div className="flex flex-col md:flex-row gap-0 md:gap-4 text-base md:text-lg lg:text-2xl">
             <div className="basis-2/4 md:basis-1/3">
               example name
             </div>
